@@ -1,0 +1,170 @@
+.topnav {
+    background-color: #F7F9FF;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #E10000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #F7F9FF;
+    color: #E10000;
+  }
+
+
+/* Flexbox */
+  .imageflex { 
+    display: flex;
+   }
+
+/* Profile Picture Styling */
+   .avatar {
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+  /* Home Page body of text - Styling */
+  .mainbody {   margin: 3%;
+    margin-top: 12%;
+    display: inline-block;
+  }
+  .mainbody h1 {
+    font-size: 3.2em;
+    text-align: center;
+  }
+  .mainbody p {
+    text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* General Page Styling */
+  body {
+    background-color: #0C0B1E;
+    padding: 20px;
+    font-family: Arial;
+    color: #E10000
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  /* Header Styling */  
+  h1 {
+    margin-left: 25px; margin-top: 25px;
+    font-size: 78px;
+    font-family: Franklin Gothic Medium;
+    word-break: break-all;
+  }
+
+/* About Me Page Centering */
+.aboutmepage{
+  margin: auto;
+  text-align: center;
+}
+
+
+/* Contact Page Centering */
+.submissionform{
+  margin: auto;
+  text-align: center;
+}
+
+/*Contact Form Centering */
+.submissionheader{
+  margin: auto;
+  text-align: center;
+}
+
+/* Home Page Description Styling */
+  .description{
+    margin-left: 25px; 
+    margin-top: 25px;
+    color: #F7F9FF;
+  }
+
+  /* Portfolio Page Styling (portfoliodescription - portfolio column) */
+  .portfoliodescription{
+    color: #0C0B1E;
+  }
+
+  .portfoliobox{
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .portfoliocolumn{
+    margin: auto;
+    text-align: center;
+  }
+
+/* Home Page Portfolio Section Styling */
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  /*Home page column styling*/
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+
+  }
